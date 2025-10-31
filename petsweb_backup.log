@@ -1,0 +1,59 @@
+===============================================
+ VARUNDAMISE SKRIPT KÄIVITATI: Fri Oct 31 09:00:50 AM EET 2025
+ Logifail: /home/aleksandr/petsweb_logreport_2025-10-31_09_00_50.log
+===============================================
+
+--- ESIMENE SIMULATSIOON ---
+sending incremental file list
+petsweb/._DEPLOYMENT.md
+petsweb/DEPLOYMENT.md
+petsweb/install.sh
+petsweb/package.json
+petsweb/docs/._README.md
+petsweb/docs/README.md
+petsweb/tests/
+petsweb/tests/._README.md
+petsweb/tests/._app-test.sh
+petsweb/tests/README.md
+petsweb/tests/app-test.sh
+
+sent 1.11K bytes  received 50 bytes  2.33K bytes/sec
+total size is 486.05K  speedup is 417.57 (DRY RUN)
+
+--- PÄRIS SYNK VÄLISTUSTEGA ---
+sending incremental file list
+
+sent 797 bytes  received 16 bytes  1.63K bytes/sec
+total size is 468.64K  speedup is 576.43
+
+--- SIHTKOHA STRUKTUUR ---
+/home/aleksandr/petsweb_backup:
+total 224
+-rw-r--r-- 1 root root  224616 Oct 19 15:28 petscareweb-01.tgz
+drwxr-xr-x 4  501 staff   4096 Oct 19 15:26 petsweb
+
+/home/aleksandr/petsweb_backup/petsweb:
+total 36
+drwxr-xr-x 2 501 staff  4096 Oct 23 11:21 docs
+-rw-r--r-- 1 501 staff 26940 Oct 19 15:26 index.html
+drwxr-xr-x 3 501 staff  4096 Oct 23 11:21 public
+
+/home/aleksandr/petsweb_backup/petsweb/docs:
+total 0
+
+/home/aleksandr/petsweb_backup/petsweb/public:
+total 24
+drwxr-xr-x 2 501 staff 4096 Oct 23 11:21 assets
+-rw-r--r-- 1 501 staff 7645 Oct 19 15:26 favicon.ico
+-rw-r--r-- 1 501 staff  963 Oct 19 15:26 favicon.svg
+-rw-r--r-- 1 501 staff 3253 Oct 19 15:26 placeholder.svg
+-rw-r--r-- 1 501 staff  160 Oct 19 15:26 robots.txt
+
+/home/aleksandr/petsweb_backup/petsweb/public/assets:
+total 204
+-rw-r--r-- 1 501 staff 43238 Oct 19 15:26 pet-cat-1.jpg
+-rw-r--r-- 1 501 staff 41736 Oct 19 15:26 pet-cat-2.jpg
+-rw-r--r-- 1 501 staff 62269 Oct 19 15:26 pet-dog-1.jpg
+-rw-r--r-- 1 501 staff 52968 Oct 19 15:26 pet-dog-2.jpg
+
+Varundamine lõpetatud edukalt: Fri Oct 31 09:00:52 AM EET 2025
