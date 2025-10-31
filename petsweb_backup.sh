@@ -2,11 +2,12 @@
 
 # Loo sihtkaust, kui seda pole
 mkdir -p ~/petsweb_backup
+LOGFILE="petsweb_logreport_$(date +%Y-%m-%d_%H_%M_%S).log"
 
-echo "--- ESIMENE SIMULATSIOON ---"
+echo "--- ESIMENE SIMULATSIOON ---" > $LOGFILE
 sudo rsync -avhn /var/www/petsweb/ ~/petsweb_backup/
 
-echo "--- PÄRIS SYNK VÄLISTUSTEGA ---"
+echo "--- PÄRIS SYNK VÄLISTUSTEGA ---" > $LOGFILE
 sudo rsync -avh \
     --exclude="*.md" \
     --exclude="package.json" \
@@ -14,7 +15,7 @@ sudo rsync -avh \
     --exclude="tests/" \
     /var/www/petsweb/ ~/petsweb_backup/
 
-echo "--- SIHTKOHA STRUKTUUR ---"
+echo "--- SIHTKOHA STRUKTUUR ---" > $LOGFILE
 ls -lR ~/petsweb_backup
 
 echo "Varundamine lõpetatud."
