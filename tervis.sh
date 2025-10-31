@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Loome ajatempliga aruandefaili
-ARUANDE_FAIL="health_report_$(date +%Y-%m-%d_%H%M).txt"
+ARUANDE_FAIL="tervis_report_$(date +%Y-%m-%d_%H%M).txt"
 
 echo "--- SÜSTEEMI TERVISEARUANNE ---" > "$ARUANDE_FAIL"
 echo "Genereeritud: $(date)" >> "$ARUANDE_FAIL"
