@@ -5,8 +5,6 @@ mkdir -p ~/petsweb_backup
 
 # Loo logifail
 LOGFILE="~/petsweb_backup/petsweb_logreport_$(date +%Y-%m-%d_%H_%M_%S).log"
-# Bash ei asenda ~ kui see on jutumärkides, seega vaja teha nii:
-LOGFILE="$HOME/petsweb_backup/petsweb_logreport_$(date +%Y-%m-%d_%H_%M_%S).log"
 
 {
 echo "--- ESIMENE SIMULATSIOON ---"
