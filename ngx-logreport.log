@@ -1,0 +1,41 @@
+--- NGINXI LOGIDE ANALÜÜS ---
+
+--- AKTIIVSED NGINXI PROTSESSID ---
+root        1186  0.0  0.0  21796  1932 ?        Ss   08:48   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data    1187  0.0  0.0  23512  4576 ?        S    08:48   0:00 nginx: worker process
+www-data    1188  0.0  0.0  23512  4696 ?        S    08:48   0:00 nginx: worker process
+www-data    1189  0.0  0.0  23512  4696 ?        S    08:48   0:00 nginx: worker process
+www-data    1190  0.0  0.0  23512  4696 ?        S    08:48   0:00 nginx: worker process
+aleksan+   14689  0.0  0.0   9144  2236 pts/0    S+   10:28   0:00 grep nginx
+
+--- LEITUD 404 VEAD (access.log) ---
+127.0.0.1 - - [23/Oct/2025:11:23:10 +0300] "GET /favicon.ico HTTP/1.1" 404 134 "http://localhost:8080/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:27:01 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:27:01 +0300] "GET /favicon.ico HTTP/1.1" 404 134 "https://localhost/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:27:08 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:27:52 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:28:05 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:21 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:40 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:41 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:41 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:41 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:41 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:41 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:41 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:42 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:42 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:42 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:42 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:42 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:42 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:43 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:11:33:43 +0300] "GET / HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+127.0.0.1 - - [23/Oct/2025:12:26:28 +0300] "GET /favicon.ico HTTP/1.1" 404 134 "https://localhost/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0"
+
+--- 404 VIGADE KOGUARV ---
+23
+
+--- KRIITILISED VEAD (error.log) ---
+
+--- ANALÜÜSI LÕPP ---
