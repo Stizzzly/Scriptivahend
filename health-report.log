@@ -1,0 +1,17 @@
+--- SÜSTEEMI TERVISEARUANNE ---
+Genereeritud: Fri Oct 24 10:35:21 AM EEST 2025
+
+--- KETTARUUMI KASUTUS (/) ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        30G   13G   16G  45% /
+
+--- UUENDATAVAD PAKETID ---
+Uuendatavaid pakette: 80
+
+--- RSYNC VARUKOOPIA STAATUS (~/petsweb_backup) ---
+VIGA VÕI PUUDUB!
+
+--- TAR VARUKOOPIA STAATUS (~/backup) ---
+Ajakohane varukoopia puudub!
+
+--- ARUANDE LÕPP ---
